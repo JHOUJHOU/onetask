@@ -1,5 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 @import './layout/header.scss';
 @import './layout/footer.scss';
-
-
+@import './pages/reset.scss';
 @import './pages/index.scss';
+
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+body {
+  font-family: Castoro,sans-serif;
+  line-height: 1.5;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.fz-20 {
+  font-size: 20px;
+}
+.fz-24 {
+  font-size: 24px;
+}
+.fz-32 {
+  font-size: 32px;
+}
+.fz-40 {
+  font-size: 40px;
+}
+.fz-128 {
+  font-size: 128px;
+}
+.fz-160 {
+  font-size: 160px;
+}
+.pt-48 {
+  padding-top: 48px;
+}
+.pb-48 {
+  padding-bottom: 48px;
+}
+.ml-40 {
+  margin-left: 40px;
+}
+.mr-40 {
+  margin-right: 40px;
+}
+.mt-48 {
+  margin-top: 48px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mt-160 {
+  margin-top: 160px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.mb-160 {
+  margin-bottom: 160px;
+}
+.text-red {
+  color: rgba(174, 0, 0, 1);
+}
+.border-b {
+  border-bottom: 3px solid rgba(174, 0, 0, 1);
+}
+.timecolor {
+  color: rgba(148, 148, 148, 1);
+}
+.d-flex {
+  display: flex;
+}
+.jcc {
+  justify-content: center;
+}
